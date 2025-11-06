@@ -1,0 +1,4463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MastIlLadderPouCopyPaste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectId>a19c6497-173e-4d17-b004-c93b954c1e90</ProjectId>
+  <CW />
+  <CDW />
+  <CMW />
+  <CustomSymbols>
+    <CustomSymbol>
+      <Address>%M150</Address>
+      <Index>0</Index>
+      <Symbol>VLV06_HMI_START</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M174</Address>
+      <Index>1</Index>
+      <Symbol>VLV06_HMI_STARTED</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M151</Address>
+      <Index>2</Index>
+      <Symbol>VLV06_HMI_STP</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M173</Address>
+      <Index>3</Index>
+      <Symbol>VLV06_STS_AUTOMATIC</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M165</Address>
+      <Index>4</Index>
+      <Symbol>VLV06_ALMD_CNF_OPN_DN</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M155</Address>
+      <Index>5</Index>
+      <Symbol>VLV06_RST_COUNT</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M166</Address>
+      <Index>6</Index>
+      <Symbol>VLV06_ALMD_CNF_CLS_DN</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M21</Address>
+      <Index>7</Index>
+      <Symbol>HORARIOOFICINA_ACTIVE</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MW444:X0</Address>
+      <Index>8</Index>
+      <Symbol>VLV05_06_POWER_ON</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M178</Address>
+      <Index>9</Index>
+      <Symbol>VLV06_TON_HR_DN</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%TM57</Address>
+      <Index>10</Index>
+      <Symbol>VLV06_ONS</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M156</Address>
+      <Index>11</Index>
+      <Symbol>VLV06_ONS_STS_AUTOMATIC</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M161</Address>
+      <Index>12</Index>
+      <Symbol>VLV06_SAVE_DATETIME</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MW52</Address>
+      <Index>13</Index>
+      <Symbol>VLV06_T_CNF_PRESET</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%TM54</Address>
+      <Index>14</Index>
+      <Symbol>VLV06_TON_ALMD_CNF_CLS</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%C26</Address>
+      <Index>15</Index>
+      <Symbol>VLV06_CNT_MIN</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%TM53</Address>
+      <Index>16</Index>
+      <Symbol>VLV06_TON_ALMD_CNF_OPN</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%TM50</Address>
+      <Index>17</Index>
+      <Symbol>VLV06_TON_OPN</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%C27</Address>
+      <Index>18</Index>
+      <Symbol>VLV06_CNT_HR</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%TM56</Address>
+      <Index>19</Index>
+      <Symbol>VLV06_T_CNF_CLS</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%TM55</Address>
+      <Index>20</Index>
+      <Symbol>VLV06_T_CNF_OPN</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MW53</Address>
+      <Index>21</Index>
+      <Symbol>VLV06_CNF_HR_PRESET</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%TM52</Address>
+      <Index>22</Index>
+      <Symbol>VLV06_TON_CLS</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MW55</Address>
+      <Index>23</Index>
+      <Symbol>VLV06_RTC_HHMM</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MW113</Address>
+      <Index>24</Index>
+      <Symbol>MONTH</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MW56</Address>
+      <Index>25</Index>
+      <Symbol>VLV06_RTC_MMDD</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MW110</Address>
+      <Index>26</Index>
+      <Symbol>DAY</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MW57</Address>
+      <Index>27</Index>
+      <Symbol>VLV06_RTC_YY</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MW114</Address>
+      <Index>28</Index>
+      <Symbol>YEAR</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MW111</Address>
+      <Index>29</Index>
+      <Symbol>HOUR</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MW112</Address>
+      <Index>30</Index>
+      <Symbol>MINUTES</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M176</Address>
+      <Index>31</Index>
+      <Symbol>VLV06_TON_SEG_DN</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M175</Address>
+      <Index>32</Index>
+      <Symbol>VLV06_TON_SEG_RST</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M177</Address>
+      <Index>33</Index>
+      <Symbol>VLV06_TON_MIN_DN</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%TM51</Address>
+      <Index>34</Index>
+      <Symbol>VLV06_TON_SEG</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%C25</Address>
+      <Index>35</Index>
+      <Symbol>VLV06_CNT_SEG</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M163</Address>
+      <Index>36</Index>
+      <Symbol>VLV06_TON_CLS_DN</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M152</Address>
+      <Index>37</Index>
+      <Symbol>VLV06_CMD_OPN</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M153</Address>
+      <Index>38</Index>
+      <Symbol>VLV06_TON_OPN_DN</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M162</Address>
+      <Index>39</Index>
+      <Symbol>VLV06_CMD_CLS</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MW50</Address>
+      <Index>40</Index>
+      <Symbol>VLV06_CNT_CLS_ACC</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MD222</Address>
+      <Index>41</Index>
+      <Symbol>VLV06_CNT_CLS_ACC2</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M158</Address>
+      <Index>42</Index>
+      <Symbol>VLV06_CNF_CLS</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MW51</Address>
+      <Index>43</Index>
+      <Symbol>VLV06_CNT_OPN_ACC</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%MD220</Address>
+      <Index>44</Index>
+      <Symbol>VLV06_CNT_OPN_ACC2</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M157</Address>
+      <Index>45</Index>
+      <Symbol>VLV06_CNF_OPN</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M167</Address>
+      <Index>46</Index>
+      <Symbol>VLV06_T_ALMD_CNF_OPN_DN</Symbol>
+    </CustomSymbol>
+    <CustomSymbol>
+      <Address>%M169</Address>
+      <Index>47</Index>
+      <Symbol>VLV06_T_ALMD_CNF_CLS_DN</Symbol>
+    </CustomSymbol>
+  </CustomSymbols>
+  <T>
+    <TimerTM>
+      <Address>%TM28</Address>
+      <Index>28</Index>
+      <Type>TP</Type>
+      <Base>TenMilliSeconds</Base>
+    </TimerTM>
+    <TimerTM>
+      <Address>%TM50</Address>
+      <Index>50</Index>
+      <Symbol>VLV06_TON_OPN</Symbol>
+      <Preset>200</Preset>
+      <Base>TenMilliSeconds</Base>
+    </TimerTM>
+    <TimerTM>
+      <Address>%TM51</Address>
+      <Index>51</Index>
+      <Symbol>VLV06_TON_SEG</Symbol>
+      <Preset>60</Preset>
+      <Base>OneSecond</Base>
+    </TimerTM>
+    <TimerTM>
+      <Address>%TM52</Address>
+      <Index>52</Index>
+      <Symbol>VLV06_TON_CLS</Symbol>
+      <Preset>300</Preset>
+      <Base>TenMilliSeconds</Base>
+    </TimerTM>
+    <TimerTM>
+      <Address>%TM53</Address>
+      <Index>53</Index>
+      <Symbol>VLV06_TON_ALMD_CNF_OPN</Symbol>
+      <Preset>300</Preset>
+      <Base>TenMilliSeconds</Base>
+    </TimerTM>
+    <TimerTM>
+      <Address>%TM54</Address>
+      <Index>54</Index>
+      <Symbol>VLV06_TON_ALMD_CNF_CLS</Symbol>
+      <Preset>300</Preset>
+      <Base>TenMilliSeconds</Base>
+    </TimerTM>
+    <TimerTM>
+      <Address>%TM55</Address>
+      <Index>55</Index>
+      <Symbol>VLV06_T_CNF_OPN</Symbol>
+    </TimerTM>
+    <TimerTM>
+      <Address>%TM56</Address>
+      <Index>56</Index>
+      <Symbol>VLV06_T_CNF_CLS</Symbol>
+    </TimerTM>
+    <TimerTM>
+      <Address>%TM57</Address>
+      <Index>57</Index>
+      <Symbol>VLV06_ONS</Symbol>
+      <Type>TP</Type>
+      <Preset>50</Preset>
+      <Base>TenMilliSeconds</Base>
+    </TimerTM>
+    <TimerTM>
+      <Address>%TM87</Address>
+      <Index>87</Index>
+      <Type>TP</Type>
+      <Preset>50</Preset>
+      <Base>TenMilliSeconds</Base>
+    </TimerTM>
+    <TimerTM>
+      <Address>%TM91</Address>
+      <Index>91</Index>
+      <Type>TP</Type>
+      <Preset>50</Preset>
+      <Base>TenMilliSeconds</Base>
+    </TimerTM>
+  </T>
+  <C>
+    <Counter>
+      <Address>%C25</Address>
+      <Index>25</Index>
+      <Symbol>VLV06_CNT_SEG</Symbol>
+      <Preset>1</Preset>
+    </Counter>
+    <Counter>
+      <Address>%C26</Address>
+      <Index>26</Index>
+      <Symbol>VLV06_CNT_MIN</Symbol>
+      <Preset>60</Preset>
+    </Counter>
+    <Counter>
+      <Address>%C27</Address>
+      <Index>27</Index>
+      <Symbol>VLV06_CNT_HR</Symbol>
+      <Preset>9</Preset>
+    </Counter>
+    <Counter>
+      <Address>%C50</Address>
+      <Index>50</Index>
+      <Preset>500</Preset>
+    </Counter>
+  </C>
+  <R />
+  <D />
+  <SBR />
+  <SC />
+  <SB />
+  <FC />
+  <MessageBlocks />
+  <GenericFunctionBlocks />
+  <UserFunctionBlockDefinitionPous />
+  <UserFunctionDefinitionPous />
+  <Pous>
+    <ProgramOrganizationUnits>
+      <Name>VLV06_MODBUSS</Name>
+      <SectionNumber>7</SectionNumber>
+      <Rungs>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M150</Descriptor>
+              <Comment />
+              <Symbol>VLV06_HMI_START</Symbol>
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M174</Descriptor>
+              <Comment />
+              <Symbol>VLV06_HMI_STARTED</Symbol>
+              <Row>1</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>RisingEdgeBlock</ElementType>
+              <Descriptor>26</Descriptor>
+              <Comment />
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>1</Column>
+              <ChosenConnection>Up, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M151</Descriptor>
+              <Comment />
+              <Symbol>VLV06_HMI_STP</Symbol>
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M174</Descriptor>
+              <Comment />
+              <Symbol>VLV06_HMI_STARTED</Symbol>
+              <Row>0</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M150</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>RISING26</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OR    %M174</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M151</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M174</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M151</Descriptor>
+              <Comment />
+              <Symbol>VLV06_HMI_STP</Symbol>
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M173</Descriptor>
+              <Comment />
+              <Symbol>VLV06_STS_AUTOMATIC</Symbol>
+              <Row>1</Row>
+              <Column>0</Column>
+              <ChosenConnection>Up, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M150</Descriptor>
+              <Comment />
+              <Symbol>VLV06_HMI_START</Symbol>
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Timer</ElementType>
+              <Descriptor>%TM28</Descriptor>
+              <Comment />
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M168</Descriptor>
+              <Comment />
+              <Row>0</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>BLK   %TM28</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M151</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ORN   %M173</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M150</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>IN</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OUT_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    Q</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M168</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>END_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>Short</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>0</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M281</Descriptor>
+              <Comment />
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M165</Descriptor>
+              <Comment />
+              <Symbol>VLV06_ALMD_CNF_OPN_DN</Symbol>
+              <Row>1</Row>
+              <Column>1</Column>
+              <ChosenConnection>Up, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M155</Descriptor>
+              <Comment />
+              <Symbol>VLV06_RST_COUNT</Symbol>
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%MW151:X0</Descriptor>
+              <Comment />
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M165</Descriptor>
+              <Comment />
+              <Symbol>VLV06_ALMD_CNF_OPN_DN</Symbol>
+              <Row>0</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD    1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>AND(  %M281</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OR    %M165</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>)</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M155</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %MW151:X0</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M165</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name>ALM</Name>
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>Short</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>0</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M281</Descriptor>
+              <Comment />
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M166</Descriptor>
+              <Comment />
+              <Symbol>VLV06_ALMD_CNF_CLS_DN</Symbol>
+              <Row>1</Row>
+              <Column>1</Column>
+              <ChosenConnection>Up, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M155</Descriptor>
+              <Comment />
+              <Symbol>VLV06_RST_COUNT</Symbol>
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%MW151:X0</Descriptor>
+              <Comment />
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M166</Descriptor>
+              <Comment />
+              <Symbol>VLV06_ALMD_CNF_CLS_DN</Symbol>
+              <Row>0</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD    1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>AND(  %M281</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OR    %M166</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>)</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M155</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %MW151:X0</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M166</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name>ALM</Name>
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>Short</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M21</Descriptor>
+              <Comment />
+              <Symbol>HORARIOOFICINA_ACTIVE</Symbol>
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M174</Descriptor>
+              <Comment />
+              <Symbol>VLV06_HMI_STARTED</Symbol>
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M165</Descriptor>
+              <Comment />
+              <Symbol>VLV06_ALMD_CNF_OPN_DN</Symbol>
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M166</Descriptor>
+              <Comment />
+              <Symbol>VLV06_ALMD_CNF_CLS_DN</Symbol>
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%MW444:X0</Descriptor>
+              <Comment />
+              <Symbol>VLV05_06_POWER_ON</Symbol>
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M168</Descriptor>
+              <Comment />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M178</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_HR_DN</Symbol>
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>1</Row>
+              <Column>8</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Timer</ElementType>
+              <Descriptor>%TM57</Descriptor>
+              <Comment />
+              <Symbol>VLV06_ONS</Symbol>
+              <Row>1</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M173</Descriptor>
+              <Comment />
+              <Symbol>VLV06_STS_AUTOMATIC</Symbol>
+              <Row>0</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M156</Descriptor>
+              <Comment />
+              <Symbol>VLV06_ONS_STS_AUTOMATIC</Symbol>
+              <Row>1</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>1</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD    1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MULTIFB</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>AND   %M21</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>AND   %M174</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M165</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M166</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>AND   %MW444:X0</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M168</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M178</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST  %MW2509:X0</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD  %MW2509:X0</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M173</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>BLK   %TM57</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD  %MW2509:X0</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>IN</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OUT_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    Q</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M156</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>END_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MULTIFB</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M165</Descriptor>
+              <Comment />
+              <Symbol>VLV06_ALMD_CNF_OPN_DN</Symbol>
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M166</Descriptor>
+              <Comment />
+              <Symbol>VLV06_ALMD_CNF_CLS_DN</Symbol>
+              <Row>1</Row>
+              <Column>0</Column>
+              <ChosenConnection>Up, Down, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M151</Descriptor>
+              <Comment />
+              <Symbol>VLV06_HMI_STP</Symbol>
+              <Row>2</Row>
+              <Column>0</Column>
+              <ChosenConnection>Up, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M161</Descriptor>
+              <Comment />
+              <Symbol>VLV06_SAVE_DATETIME</Symbol>
+              <Row>0</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M165</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OR    %M166</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OR    %M151</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M161</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>Short</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>0</Column>
+              <ChosenConnection>Up, Down, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>0</Column>
+              <ChosenConnection>Up, Down, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>3</Row>
+              <Column>0</Column>
+              <ChosenConnection>Up, Down, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>4</Row>
+              <Column>0</Column>
+              <ChosenConnection>Up, Down, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>5</Row>
+              <Column>0</Column>
+              <ChosenConnection>Up, Down, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>6</Row>
+              <Column>0</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M159</Descriptor>
+              <Comment />
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>3</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>4</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>5</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Comparison</ElementType>
+              <ComparisonExpression>%TM28.P := %MW52 - 100</ComparisonExpression>
+              <Row>1</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>3</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>4</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>5</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Comparison</ElementType>
+              <ComparisonExpression>%TM54.P := %MW52 - 100</ComparisonExpression>
+              <Row>6</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>3</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>4</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>5</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Comparison</ElementType>
+              <ComparisonExpression>%MW91 := %C26.V</ComparisonExpression>
+              <Row>1</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>3</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>4</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>5</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Comparison</ElementType>
+              <ComparisonExpression>%TM53.P := %MW52 - 100</ComparisonExpression>
+              <Row>6</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>3</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>4</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>5</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>3</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>4</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>5</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Comparison</ElementType>
+              <ComparisonExpression>%TM50.P := %MW52</ComparisonExpression>
+              <Row>6</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>3</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>4</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>5</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>6</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>3</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>4</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>5</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>6</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>3</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>4</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>5</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>6</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M159</Descriptor>
+              <Comment />
+              <Row>0</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%MW92 := %C27.V</OperationExpression>
+              <Row>1</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%TM56.P := %MW52 - 100</OperationExpression>
+              <Row>2</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%TM55.P := %MW52 - 100</OperationExpression>
+              <Row>3</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%C27.P := %MW53</OperationExpression>
+              <Row>4</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%C50.P := %MW54</OperationExpression>
+              <Row>5</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%TM52.P := %MW52</OperationExpression>
+              <Row>6</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>1</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>2</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>3</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>4</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>5</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>6</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD  1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MPS</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>AND  %M159</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST  %M159</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MRD</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OPER [ %TM28.P := %MW52 - 100 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OPER [ %MW91 := %C26.V ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %MW92 := %C27.V ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MRD</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %TM56.P := %MW52 - 100 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MRD</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %TM55.P := %MW52 - 100 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MRD</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %C27.P := %MW53 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MRD</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %C50.P := %MW54 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MPP</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OPER [ %TM54.P := %MW52 - 100 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OPER [ %TM53.P := %MW52 - 100 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OPER [ %TM50.P := %MW52 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %TM52.P := %MW52 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name>MSJ HMI</Name>
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M161</Descriptor>
+              <Comment />
+              <Symbol>VLV06_SAVE_DATETIME</Symbol>
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Comparison</ElementType>
+              <ComparisonExpression>%MW55 := %MW113</ComparisonExpression>
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Comparison</ElementType>
+              <ComparisonExpression>%MW56 := %MW110</ComparisonExpression>
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Comparison</ElementType>
+              <ComparisonExpression>%MW57 := %MW114</ComparisonExpression>
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Comparison</ElementType>
+              <ComparisonExpression>%MW128 := %MW111</ComparisonExpression>
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%MW127 := %MW112</OperationExpression>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD  %M161</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OPER [ %MW55 := %MW113 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OPER [ %MW56 := %MW110 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OPER [ %MW57 := %MW114 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OPER [ %MW128 := %MW111 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %MW127 := %MW112 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name>STOP TIME</Name>
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M173</Descriptor>
+              <Comment />
+              <Symbol>VLV06_STS_AUTOMATIC</Symbol>
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M176</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_SEG_DN</Symbol>
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M175</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_SEG_RST</Symbol>
+              <Row>0</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M173</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M176</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M175</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M155</Descriptor>
+              <Comment />
+              <Symbol>VLV06_RST_COUNT</Symbol>
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M21</Descriptor>
+              <Comment />
+              <Symbol>HORARIOOFICINA_ACTIVE</Symbol>
+              <Row>1</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M177</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_MIN_DN</Symbol>
+              <Row>2</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>RisingEdgeBlock</ElementType>
+              <Descriptor>27</Descriptor>
+              <Comment />
+              <Row>1</Row>
+              <Column>1</Column>
+              <ChosenConnection>Up, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Counter</ElementType>
+              <Descriptor>%C27</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CNT_HR</Symbol>
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M178</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_HR_DN</Symbol>
+              <Row>1</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>1</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>BLK   %C27</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M155</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OR(   %M21</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>RISING27</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>)</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>R</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M177</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>CU</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OUT_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    D</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M178</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>END_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>Short</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>0</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M21</Descriptor>
+              <Comment />
+              <Symbol>HORARIOOFICINA_ACTIVE</Symbol>
+              <Row>2</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M176</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_SEG_DN</Symbol>
+              <Row>3</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M155</Descriptor>
+              <Comment />
+              <Symbol>VLV06_RST_COUNT</Symbol>
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M177</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_MIN_DN</Symbol>
+              <Row>1</Row>
+              <Column>1</Column>
+              <ChosenConnection>Up, Down, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>RisingEdgeBlock</ElementType>
+              <Descriptor>28</Descriptor>
+              <Comment />
+              <Row>2</Row>
+              <Column>1</Column>
+              <ChosenConnection>Up, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>3</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>2</Column>
+              <ChosenConnection>Down, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>3</Row>
+              <Column>2</Column>
+              <ChosenConnection>Up, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Counter</ElementType>
+              <Descriptor>%C26</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CNT_MIN</Symbol>
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M177</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_MIN_DN</Symbol>
+              <Row>1</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>1</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>BLK   %C26</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>AND(  %M155</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OR    %M177</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>)</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OR(   %M21</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>RISING28</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>)</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>R</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M176</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>CU</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OUT_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    D</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M177</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>END_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>Short</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Down, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>1</Row>
+              <Column>1</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>1</Row>
+              <Column>2</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>2</Row>
+              <Column>2</Column>
+              <ChosenConnection>Up, Down</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>3</Row>
+              <Column>2</Column>
+              <ChosenConnection>Up, Down</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>4</Row>
+              <Column>2</Column>
+              <ChosenConnection>Up, Down</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>5</Row>
+              <Column>2</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>1</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M173</Descriptor>
+              <Comment />
+              <Symbol>VLV06_STS_AUTOMATIC</Symbol>
+              <Row>5</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>1</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M176</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_SEG_DN</Symbol>
+              <Row>5</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>1</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>1</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Timer</ElementType>
+              <Descriptor>%TM51</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_SEG</Symbol>
+              <Row>5</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>1</Row>
+              <Column>7</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>2</Row>
+              <Column>7</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>5</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M155</Descriptor>
+              <Comment />
+              <Symbol>VLV06_RST_COUNT</Symbol>
+              <Row>1</Row>
+              <Column>8</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M176</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_SEG_DN</Symbol>
+              <Row>2</Row>
+              <Column>8</Column>
+              <ChosenConnection>Up, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>5</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>1</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>3</Row>
+              <Column>9</Column>
+              <ChosenConnection>Down, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>4</Row>
+              <Column>9</Column>
+              <ChosenConnection>Up, Down</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>5</Row>
+              <Column>9</Column>
+              <ChosenConnection>Up, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Counter</ElementType>
+              <Descriptor>%C25</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CNT_SEG</Symbol>
+              <Row>1</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M176</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_SEG_DN</Symbol>
+              <Row>2</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD    1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MULTIFB</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST  %MW2509:X1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>BLK   %TM51</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD  %MW2509:X1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>AND   %M173</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M176</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>IN</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OUT_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    Q</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST  %MW2509:X0</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>END_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>BLK   %C25</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD  %MW2509:X1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>AND(  %M155</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OR    %M176</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>)</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>R</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD  %MW2509:X0</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>CU</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OUT_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    D</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M176</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>END_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MULTIFB</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>Short</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M173</Descriptor>
+              <Comment />
+              <Symbol>VLV06_STS_AUTOMATIC</Symbol>
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>1</Column>
+              <ChosenConnection>Up, Down, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>1</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M156</Descriptor>
+              <Comment />
+              <Symbol>VLV06_ONS_STS_AUTOMATIC</Symbol>
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M163</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_CLS_DN</Symbol>
+              <Row>1</Row>
+              <Column>2</Column>
+              <ChosenConnection>Up, Down, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M152</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CMD_OPN</Symbol>
+              <Row>2</Row>
+              <Column>2</Column>
+              <ChosenConnection>Up, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M151</Descriptor>
+              <Comment />
+              <Symbol>VLV06_HMI_STP</Symbol>
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M153</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_OPN_DN</Symbol>
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Comparison</ElementType>
+              <ComparisonExpression>%MW100 := %MW58</ComparisonExpression>
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>1</Row>
+              <Column>7</Column>
+              <ChosenConnection>Up, Down</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>2</Row>
+              <Column>7</Column>
+              <ChosenConnection>Up, Down</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>3</Row>
+              <Column>7</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Timer</ElementType>
+              <Descriptor>%TM87</Descriptor>
+              <Comment />
+              <Row>3</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>3</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>3</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M152</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CMD_OPN</Symbol>
+              <Row>0</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M313</Descriptor>
+              <Comment />
+              <Row>3</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD  1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MULTIFB</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD  1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>AND  %M173</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>AND(  %M156</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OR  %M163</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OR  %M152</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>)</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M151</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M153</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OPER [ %MW100 := %MW58 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST  %MW2509:X0</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD  %MW2509:X0</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST  %M152</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>BLK  %TM87</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD  %MW2509:X0</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>IN</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OUT_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD Q</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST  %M313</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>END_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MULTIFB</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M152</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CMD_OPN</Symbol>
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M162</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CMD_CLS</Symbol>
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Timer</ElementType>
+              <Descriptor>%TM50</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_OPN</Symbol>
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M153</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_OPN_DN</Symbol>
+              <Row>0</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>BLK   %TM50</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M152</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M162</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>IN</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OUT_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    Q</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M153</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>END_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M155</Descriptor>
+              <Comment />
+              <Symbol>VLV06_RST_COUNT</Symbol>
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>10</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%MW50 := 0</OperationExpression>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%MD222 := 0</OperationExpression>
+              <Row>1</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M155</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %MW50 := 0 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %MD222 := 0 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M158</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CNF_CLS</Symbol>
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>RisingEdgeBlock</ElementType>
+              <Descriptor>29</Descriptor>
+              <Comment />
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>10</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%MW50 := %MW50 + 1</OperationExpression>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%MD222 := %MD222 + 1</OperationExpression>
+              <Row>1</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M158</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>RISING29</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %MW50 := %MW50 + 1 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %MD222 := %MD222 + 1 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>Short</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M168</Descriptor>
+              <Comment />
+              <Row>2</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M173</Descriptor>
+              <Comment />
+              <Symbol>VLV06_STS_AUTOMATIC</Symbol>
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>1</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M153</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_OPN_DN</Symbol>
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M162</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CMD_CLS</Symbol>
+              <Row>1</Row>
+              <Column>2</Column>
+              <ChosenConnection>Up, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M151</Descriptor>
+              <Comment />
+              <Symbol>VLV06_HMI_STP</Symbol>
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M163</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_CLS_DN</Symbol>
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>4</Column>
+              <ChosenConnection>Up, Down</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>2</Row>
+              <Column>4</Column>
+              <ChosenConnection>Up, Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Comparison</ElementType>
+              <ComparisonExpression>%MW100 := %MW54</ComparisonExpression>
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>1</Row>
+              <Column>7</Column>
+              <ChosenConnection>Up, Down</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>2</Row>
+              <Column>7</Column>
+              <ChosenConnection>Up, Down</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Row>3</Row>
+              <Column>7</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Timer</ElementType>
+              <Descriptor>%TM91</Descriptor>
+              <Comment />
+              <Row>3</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>3</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Row>3</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M162</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CMD_CLS</Symbol>
+              <Row>0</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M312</Descriptor>
+              <Comment />
+              <Row>3</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD  1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MULTIFB</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD  1</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>AND  %M173</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>AND(  %M153</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OR  %M162</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>)</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M151</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M163</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OR  %M168</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OPER [ %MW100 := %MW54 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST  %MW2509:X0</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD  %MW2509:X0</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST  %M162</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>BLK  %TM91</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD  %MW2509:X0</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>IN</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OUT_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD Q</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST  %M312</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>END_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>MULTIFB</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M162</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CMD_CLS</Symbol>
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M152</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CMD_OPN</Symbol>
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Timer</ElementType>
+              <Descriptor>%TM52</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_CLS</Symbol>
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M163</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_CLS_DN</Symbol>
+              <Row>0</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>BLK   %TM52</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M162</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M152</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>IN</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OUT_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    Q</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M163</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>END_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M155</Descriptor>
+              <Comment />
+              <Symbol>VLV06_RST_COUNT</Symbol>
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>10</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%MW51 := 0</OperationExpression>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%MD220 := 0</OperationExpression>
+              <Row>1</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M155</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %MW51 := 0 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %MD220 := 0 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M157</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CNF_OPN</Symbol>
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>RisingEdgeBlock</ElementType>
+              <Descriptor>30</Descriptor>
+              <Comment />
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>3</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Down, Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>VerticalLine</ElementType>
+              <Descriptor />
+              <Row>1</Row>
+              <Column>10</Column>
+              <ChosenConnection>Up, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%MW51 := %MW51 + 1</OperationExpression>
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Operation</ElementType>
+              <OperationExpression>%MD220 := %MD220 + 1</OperationExpression>
+              <Row>1</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M157</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>RISING30</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %MW51 := %MW51 + 1 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>[ %MD220 := %MD220 + 1 ]</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M152</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CMD_OPN</Symbol>
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M157</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CNF_OPN</Symbol>
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Timer</ElementType>
+              <Descriptor>%TM53</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_ALMD_CNF_OPN</Symbol>
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M167</Descriptor>
+              <Comment />
+              <Symbol>VLV06_T_ALMD_CNF_OPN_DN</Symbol>
+              <Row>0</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>BLK   %TM53</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M152</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M157</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>IN</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OUT_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    Q</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M167</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>END_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+        <RungEntity>
+          <LadderElements>
+            <LadderEntity>
+              <ElementType>NormalContact</ElementType>
+              <Descriptor>%M162</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CMD_CLS</Symbol>
+              <Row>0</Row>
+              <Column>0</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>NegatedContact</ElementType>
+              <Descriptor>%M158</Descriptor>
+              <Comment />
+              <Symbol>VLV06_CNF_CLS</Symbol>
+              <Row>0</Row>
+              <Column>1</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Timer</ElementType>
+              <Descriptor>%TM54</Descriptor>
+              <Comment />
+              <Symbol>VLV06_TON_ALMD_CNF_CLS</Symbol>
+              <Row>0</Row>
+              <Column>2</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>4</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>5</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>6</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>7</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>8</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>9</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>10</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Line</ElementType>
+              <Descriptor />
+              <Row>0</Row>
+              <Column>11</Column>
+              <ChosenConnection>Left, Right</ChosenConnection>
+            </LadderEntity>
+            <LadderEntity>
+              <ElementType>Coil</ElementType>
+              <Descriptor>%M169</Descriptor>
+              <Comment />
+              <Symbol>VLV06_T_ALMD_CNF_CLS_DN</Symbol>
+              <Row>0</Row>
+              <Column>12</Column>
+              <ChosenConnection>Left</ChosenConnection>
+            </LadderEntity>
+          </LadderElements>
+          <InstructionLines>
+            <InstructionLineEntity>
+              <InstructionLine>BLK   %TM54</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    %M162</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ANDN  %M158</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>IN</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>OUT_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>LD    Q</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>ST    %M169</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+            <InstructionLineEntity>
+              <InstructionLine>END_BLK</InstructionLine>
+              <Comment />
+            </InstructionLineEntity>
+          </InstructionLines>
+          <Name />
+          <MainComment />
+          <Label />
+          <IsLadderSelected>true</IsLadderSelected>
+        </RungEntity>
+      </Rungs>
+    </ProgramOrganizationUnits>
+  </Pous>
+</MastIlLadderPouCopyPaste>
